@@ -1,6 +1,6 @@
 a=int(input("enter number one: "))
 b=int(input("enter number two: "))
-#add
+
 command=(input('command:'))
 if command=='+':
     print('sum:' ,a+b)
