@@ -1,4 +1,4 @@
-'''#mixture
+#mixture
 f=open("new.txt",'a')
 f.write("\n hello1")
 f.close()
@@ -25,11 +25,13 @@ f=open("new.txt",'a')
 f.write("\n hello1")
 f.close()
 
+#to read and output 1 line or selected test
 f=open("new.txt")
 print(f.readlines())
 print(f.readlines())
-print(f.readline(100))'''
+print(f.readline(100))
 
+#to add data in excel file
 import csv
 with open('student.csv',"w", newline='') as file:
     write=csv.writer(file)
