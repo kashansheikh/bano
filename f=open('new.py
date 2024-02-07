@@ -13,7 +13,7 @@ f=open("new1.text")
 print(f.read())
 
 
-#to replace ans write
+#to replace and write
 f=open("new.txt",'w')
 f.write("\n hello1")
 f.close()
